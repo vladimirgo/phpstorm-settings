@@ -1,0 +1,12 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6bba97a3-3052-48eb-af27-68009ff09431" name="E-Friend" url="http://e-friend.test">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="3b1420d6-2b04-4fe9-8f11-57e12e1b3199" name="SdInvoice" url="http://sdinvoice.test">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
