@@ -7,6 +7,9 @@
       <webServer id="3b1420d6-2b04-4fe9-8f11-57e12e1b3199" name="SdInvoice" url="http://sdinvoice.test">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="d496a798-74bd-442f-9a09-52c0bd0efcb7" name="Stock" url="http://stock.test">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
