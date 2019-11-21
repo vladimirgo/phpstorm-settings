@@ -1,0 +1,17 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="SQL" injector-id="js">
+      <display-name>SQL select/delete/insert/update/create</display-name>
+      <place disabled="true"><![CDATA[jsLiteralExpression().withText(string().matchesBrics("[\"'`] *(((SELECT|DELETE) .*FROM)|((INSERT|REPLACE) .*INTO)|(UPDATE .* SET)|((CREATE|DROP|ALTER) +((TEMPORARY )?TABLE|(UNIQUE )?INDEX))) .*[\"'`]?"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="js">
+      <display-name>SQL tagged string</display-name>
+      <place disabled="true"><![CDATA[taggedString("sql")]]></place>
+      <templateTag>sql</templateTag>
+    </injection>
+    <injection language="SQL" injector-id="php">
+      <display-name>&quot;SQL select/delete/insert/update/create&quot;</display-name>
+      <place disabled="true"><![CDATA[and(not(phpLiteralExpression("DQL")), phpLiteralMatchesBrics(" *(((SELECT|DELETE) .*FROM)|((INSERT|REPLACE) .*INTO)|(UPDATE ~(.*[A-Za-z_][A-Za-z0-9_]*(\\\\|:)[A-Za-z_].*) SET)|((CREATE|DROP|ALTER) +((TEMPORARY )?TABLE|(UNIQUE )?INDEX))) ~(.*[A-Za-z_][A-Za-z0-9_]*(\\\\|:)[A-Za-z_].*)"))]]></place>
+    </injection>
+  </component>
+</application>
