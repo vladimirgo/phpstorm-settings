@@ -3,5 +3,6 @@
     <option name="customScope" value="stock excludes" />
     <option name="defaultScopeName" value="stock excludes" />
     <option name="SEARCH_SCOPE" value="stock excludes" />
+    <option name="FILE_MASK" value="*.php" />
   </component>
 </application>
