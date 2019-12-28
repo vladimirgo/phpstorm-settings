@@ -10,6 +10,9 @@
       <webServer id="d496a798-74bd-442f-9a09-52c0bd0efcb7" name="Stock" url="http://stock.test">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="45192695-2991-419f-9678-60cdd8d45723" name="Meininterliving" url="http://mein-interliving.test">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
