@@ -13,6 +13,9 @@
       <webServer id="45192695-2991-419f-9678-60cdd8d45723" name="Meininterliving" url="http://mein-interliving.test">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="d4c344df-7c12-4095-81aa-95f4df85607f" name="mein_interliving5" url="http://mein-interliving5.test">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
